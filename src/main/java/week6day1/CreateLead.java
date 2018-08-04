@@ -12,8 +12,8 @@ public class CreateLead extends  Annotations {
 	@Test(dataProvider="fetchData", groups= {"smoke"})
 	public void createLead(String org, String fName, String lName, String eMail, String pho) {
 		WebElement contactLink = locateElement("linktext", "Leads");
-		click(contactLink);
-		WebElement createCntLink = locateElement("linktext", "Create Lead");
+		click(contactLink);//edited by arivu
+	//	WebElement createCntLink = locateElement("linktext", "Create Lead");
 		click(createCntLink);
 		WebElement eleUserName = locateElement("id", "createLeadForm_companyName");
 		type(eleUserName, org);
