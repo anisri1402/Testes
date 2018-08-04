@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="5" name="Failed suite [lead]">
+  <parameter name="uname" value="DemoSalesManager"/>
+  <parameter name="pwd" value="crmsfa"/>
+  <parameter name="url" value="http://leaftaps.com/opentaps"/>
+  <listeners>
+    <listener class-name="week5.day2.cw.TestNGListeners"/>
+  </listeners>
+  <test thread-count="5" verbose="5" name="param(failed)">
+    <classes>
+      <class name="week5.day1.cw.CreateLead">
+        <methods>
+          <include name="closeApp"/>
+          <include name="createLead" invocation-numbers="0"/>
+          <include name="login"/>
+        </methods>
+      </class> <!-- week5.day1.cw.CreateLead -->
+    </classes>
+  </test> <!-- param(failed) -->
+</suite> <!-- Failed suite [lead] -->

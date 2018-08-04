@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="174041" started-at="2018-07-29T06:47:21Z" finished-at="2018-07-29T06:50:15Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="174041" started-at="2018-07-29T06:47:21Z" finished-at="2018-07-29T06:50:15Z">
+      <class name="testcases.TC002_CreateLeadNeg">
+        <test-method status="PASS" signature="startSuite()[pri:0, instance:testcases.TC002_CreateLeadNeg@185d8b6]" name="startSuite" is-config="true" duration-ms="485" started-at="2018-07-29T06:47:20Z" finished-at="2018-07-29T06:47:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startSuite -->
+        <test-method status="PASS" signature="setValues()[pri:0, instance:testcases.TC002_CreateLeadNeg@185d8b6]" name="setValues" is-config="true" duration-ms="0" started-at="2018-07-29T06:47:21Z" finished-at="2018-07-29T06:47:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setValues -->
+        <test-method status="PASS" signature="startTestRe()[pri:0, instance:testcases.TC002_CreateLeadNeg@185d8b6]" name="startTestRe" is-config="true" duration-ms="0" started-at="2018-07-29T06:47:21Z" finished-at="2018-07-29T06:47:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTestRe -->
+        <test-method status="PASS" signature="login()[pri:0, instance:testcases.TC002_CreateLeadNeg@185d8b6]" name="login" is-config="true" duration-ms="56548" started-at="2018-07-29T06:47:21Z" finished-at="2018-07-29T06:48:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="createLead(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testcases.TC002_CreateLeadNeg@185d8b6]" name="createLead" duration-ms="33176" started-at="2018-07-29T06:48:18Z" data-provider="fetchData" finished-at="2018-07-29T06:48:51Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Anirudh]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[S]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[ani@mailinator.com]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[9789063]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[The following required parameter is missing: [crmsfa.createLead.companyName]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createLead -->
+        <test-method status="PASS" signature="closeApp()[pri:0, instance:testcases.TC002_CreateLeadNeg@185d8b6]" name="closeApp" is-config="true" duration-ms="2355" started-at="2018-07-29T06:48:51Z" finished-at="2018-07-29T06:48:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApp -->
+        <test-method status="PASS" signature="login()[pri:0, instance:testcases.TC002_CreateLeadNeg@185d8b6]" name="login" is-config="true" duration-ms="35046" started-at="2018-07-29T06:48:53Z" finished-at="2018-07-29T06:49:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="createLead(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testcases.TC002_CreateLeadNeg@185d8b6]" name="createLead" duration-ms="29077" started-at="2018-07-29T06:49:28Z" data-provider="fetchData" finished-at="2018-07-29T06:49:57Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Testleaf]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[S]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[arivu@mailinatorcom]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[6925873]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[The following required parameter is missing: [crmsfa.createLead.firstName]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createLead -->
+        <test-method status="PASS" signature="closeApp()[pri:0, instance:testcases.TC002_CreateLeadNeg@185d8b6]" name="closeApp" is-config="true" duration-ms="46" started-at="2018-07-29T06:49:57Z" finished-at="2018-07-29T06:49:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApp -->
+        <test-method status="PASS" signature="login()[pri:0, instance:testcases.TC002_CreateLeadNeg@185d8b6]" name="login" is-config="true" duration-ms="9406" started-at="2018-07-29T06:49:58Z" finished-at="2018-07-29T06:50:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="createLead(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testcases.TC002_CreateLeadNeg@185d8b6]" name="createLead" duration-ms="5550" started-at="2018-07-29T06:50:07Z" data-provider="fetchData" finished-at="2018-07-29T06:50:13Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Testleaf]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Kalai]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[kalai@mailinator.com]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[5789632]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[The following required parameter is missing: [crmsfa.createLead.lastName]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createLead -->
+        <test-method status="PASS" signature="closeApp()[pri:0, instance:testcases.TC002_CreateLeadNeg@185d8b6]" name="closeApp" is-config="true" duration-ms="2098" started-at="2018-07-29T06:50:13Z" finished-at="2018-07-29T06:50:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApp -->
+        <test-method status="PASS" signature="stopSuite()[pri:0, instance:testcases.TC002_CreateLeadNeg@185d8b6]" name="stopSuite" is-config="true" duration-ms="344" started-at="2018-07-29T06:50:15Z" finished-at="2018-07-29T06:50:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- stopSuite -->
+      </class> <!-- testcases.TC002_CreateLeadNeg -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
